@@ -281,13 +281,14 @@ a:hover {
 .navbar {
 	margin-bottom: 0;
 	z-index: 1;
+	font-weight: bold;
+	color: #575757;
 }
 
 .navbar-brand {
 	height: auto;
 	padding: 3px 15px;
 	font-size: 25px;
-	font-weight: normal;
 	font-weight: 600;
 	line-height: 44px;
 }
@@ -339,7 +340,7 @@ a:hover {
 
 .navbar-toggle .icon-bar {
 	background-color: rgba(0, 0, 0, 0.5);
-	width: 26px;
+	width: 40px;
 }
 
 .nav-invert .navbar .nav {
@@ -363,7 +364,7 @@ a:hover {
 	}
 	.nav > li .dropdown-menu a,
 	.nav > li .dropdown-menu a:hover {
-		color: #484848;
+		color: #000000;
 	}
 	.nav-invert .site-navigation {
 		left: 0;
